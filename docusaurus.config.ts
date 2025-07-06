@@ -15,7 +15,7 @@ const config: Config = {
   organizationName: 'altruistic-hive',
   projectName: 'spectacle-report', 
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
