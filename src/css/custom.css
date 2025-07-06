@@ -8,7 +8,7 @@
  * Font & Swiper Carousel Imports
  * -----------------------------------------------------------------------------
  */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@400;500;600;700;800&display=swap');
 @import 'swiper/css';
 @import 'swiper/css/navigation';
 @import 'swiper/css/pagination';
@@ -23,26 +23,26 @@
  */
 :root {
   /* Color Palette: Accent & Monochromatic */
-  --color-accent: #A41E22; /* 이 값을 원하는 강조색으로 변경하세요 */
-  --color-accent-glow: rgba(164, 30, 34, 0.25); /* 강조색의 반투명 버전 */
+  --color-accent: #1E8449; /* 진한 녹색 계열로 변경 */
+  --color-accent-glow: rgba(30, 132, 73, 0.25); /* 강조색의 반투명 버전 */
   --site-text-primary: #111111;
   --site-text-secondary: #666666;
   --site-unified-background: #ffffff;
   --site-border-color: #eeeeee;
 
   /* Docusaurus Base Overrides */
-  --ifm-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  --ifm-font-family-base: 'Hahmlet', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   --ifm-font-family-monospace: 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
   --ifm-font-size-base: 17px;
   --ifm-line-height-base: 1.7;
 
   --ifm-color-primary: var(--color-accent);
-  --ifm-color-primary-dark: #941b1e;
-  --ifm-color-primary-darker: #8b1a1c;
-  --ifm-color-primary-darkest: #721517;
-  --ifm-color-primary-light: #b32125;
-  --ifm-color-primary-lighter: #bb2327;
-  --ifm-color-primary-lightest: #d4272c;
+  --ifm-color-primary-dark: #1A7440;
+  --ifm-color-primary-darker: #176337;
+  --ifm-color-primary-darkest: #114B29;
+  --ifm-color-primary-light: #389E5A;
+  --ifm-color-primary-lighter: #47B16A;
+  --ifm-color-primary-lightest: #68C786;
   
   --ifm-link-color: var(--color-accent);
   --ifm-link-hover-decoration: underline;
@@ -66,8 +66,8 @@
  */
 html[data-theme='dark'] {
   /* Color Palette: Accent & Monochromatic */
-  --color-accent: #EF4444; 
-  --color-accent-glow: rgba(239, 68, 68, 0.2);
+  --color-accent: #2ECC71; /* 밝은 녹색 계열로 변경 */
+  --color-accent-glow: rgba(46, 204, 113, 0.2);
   --site-text-primary: #f0f0f0;
   --site-text-secondary: #999999;
   --site-unified-background: #121212;
@@ -75,12 +75,12 @@ html[data-theme='dark'] {
 
   /* Docusaurus Component Overrides */
   --ifm-color-primary: var(--color-accent);
-  --ifm-color-primary-dark: #dc2626;
-  --ifm-color-primary-darker: #d02020;
-  --ifm-color-primary-darkest: #b01a1a;
-  --ifm-color-primary-light: #f16262;
-  --ifm-color-primary-lighter: #f37878;
-  --ifm-color-primary-lightest: #f7a0a0;
+  --ifm-color-primary-dark: #29B765;
+  --ifm-color-primary-darker: #26A85D;
+  --ifm-color-primary-darkest: #1E8449;
+  --ifm-color-primary-light: #48D984;
+  --ifm-color-primary-lighter: #5ADF91;
+  --ifm-color-primary-lightest: #81E9AB;
   
   --ifm-link-color: var(--color-accent);
   --ifm-background-color: var(--site-unified-background);

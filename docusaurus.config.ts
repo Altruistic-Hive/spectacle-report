@@ -1,15 +1,16 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+
 const config: Config = {
   title: 'SPECTACLE REPORT',
-  tagline: 'ALTRUISTICHIVE',
+  tagline: 'HANDCRAFTED EYEWEAR',
   favicon: 'img/favicon.svg',
-future: {
+  future: {
     v4: true,
   },
-  url: 'https://sub-domain.altruistic-hive.org',
-  baseUrl: '/',
+  url: 'https://altruistic-hive.github.io',
+  baseUrl: '/spectacle-report/',
 
   organizationName: 'altruistic-hive',
   projectName: 'spectacle-report', 
@@ -51,8 +52,9 @@ future: {
     navbar: {
       title: 'SPECTACLE REPORT',
       logo: {
-        alt: 'TITLE',
-        src: 'img/favicon.svg',
+        alt: 'SPECTACLE REPORT 로고',
+        src: 'img/favicon_black.svg', // 라이트 모드 로고
+        srcDark: 'img/favicon_white.svg', // 다크 모드 로고
       },
       items: [
         {
